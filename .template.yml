@@ -1,0 +1,28 @@
+collections:
+  - common
+  - purescript
+
+excludes:
+  - .cspell.json
+  - README.md
+  - bower.json
+
+render_context:
+  project:
+    name: purescript-svg-formatter
+    description: SVG formatter.
+    version: 0.1.0
+    verbose_name: PureScript Svg Formatter
+    repository: https://github.com/JoelLefkowitz/purescript-svg-formatter
+    codacy_id: 0
+
+  author:
+    author: joellefkowitz
+    author_email: joellefkowitz@hotmail.com
+    verbose_author: Joel Lefkowitz
+
+clear_top_level: true
+logical_grouping: true
+
+loader_paths:
+  - docs
