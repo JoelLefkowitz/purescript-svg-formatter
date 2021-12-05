@@ -14,13 +14,11 @@ testMatchers =
         validate "" "" `shouldEqual` true
         validate ".*" "123" `shouldEqual` true
         validate ".+" "a" `shouldEqual` true
-        -- validate ".+" "abc" `shouldEqual` false
-        
-    ---  pickGroups "" "" `shouldEqual` Just [ "" ]
 
 -- describe "Handles invalid regex expressions." do
 --   it "Returns Nothing when given an invalid regex expression." do
 --     matchFirst "[0-9]++" "" "" `shouldEqual` Nothing
+
 -- describe "Matches a single regex capture group." do
 --   it "Returns Nothing when no matching group is present." do
 --     matchFirst """<(\d)>""" "" "<a>" `shouldEqual` Nothing

@@ -23,8 +23,8 @@
     "purescript-strings": "^5.0.0"
   },
   "devDependencies": {
-    "purescript-assert": "^5.0.0",
     "purescript-debug": "^5.0.0",
-    "purescript-psci-support": "^5.0.0"
+    "purescript-psci-support": "^5.0.0",
+    "purescript-test-unit": "^16.0.0"
   }
 }
