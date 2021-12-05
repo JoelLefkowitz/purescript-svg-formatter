@@ -6,6 +6,8 @@ excludes:
   - .cspell.json
   - README.md
   - bower.json
+  - package.json
+  - spago.dhall
 
 render_context:
   project:

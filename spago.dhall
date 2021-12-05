@@ -1,13 +1,12 @@
-{ name = "svg-formatter"
-, dependencies = [ "console"
-  , "effect"
-  , "psci-support"
-  , "strings"
-  , "stringutils"
-  , "test-unit"
-  , "foldable-traversable"
-  , "debug"
-  ]
+{ name = "purescript-svg-formatter"
+, version = "0.1.0"
+, repository = "https://github.com/JoelLefkowitz/purescript-svg-formatter"
+, license = "MIT"
+, dependencies = 
+    [ "foldable-traversable"
+    , "prelude"
+    , "strings"
+    ]
 , packages = ./packages.dhall
-, sources = [ "src/**/*.purs", "test/**/*.purs" ]
+, sources = [ "src/**/*.purs" ]
 }

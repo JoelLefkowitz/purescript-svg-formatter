@@ -1,0 +1,30 @@
+{
+  "name": "purescript-svg-formatter",
+  "version": "0.1.0",
+  "description": "SVG formatter.",
+  "homepage": "https://github.com/JoelLefkowitz/purescript-svg-formatter",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoelLefkowitz/purescript-svg-formatter"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "test",
+    "bower.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-foldable-traversable": "^5.0.1",
+    "purescript-prelude": "^5.0.1",
+    "purescript-strings": "^5.0.0"
+  },
+  "devDependencies": {
+    "purescript-assert": "^5.0.0",
+    "purescript-debug": "^5.0.0",
+    "purescript-psci-support": "^5.0.0"
+  }
+}

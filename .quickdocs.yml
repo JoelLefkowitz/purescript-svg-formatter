@@ -1,0 +1,7 @@
+project: purescript-svg-formatter
+version: 0.1.0
+author: Joel Lefkowitz
+verbose_name: PureScript Svg Formatter
+html_title: PureScript Svg Formatter
+github_url: https://github.com/JoelLefkowitz/purescript-svg-formatter
+apidoc_module_dir: src
